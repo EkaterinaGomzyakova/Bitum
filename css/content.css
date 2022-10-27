@@ -1,56 +1,292 @@
-.screen {
+/* .screen {
   position: relative;
 }
 /* h1, h2, h3, h4 {
   color: #0344A5; */
-}
-h1 {
+/* } */
+/* h1 {
   margin-top: 42px;
   font-family: 'Bitum';
   font-size: 76px;
   line-height: 75px;
   color: #0344A5;
-}
-h2 {
+} */
+/* h2 {
   margin-top: 30px;
   font-family: 'Bitum';
   font-size: 48px;
   line-height: 48px;
-}
-h3 {margin-top: 15px;
+} */
+/* h3 {margin-top: 15px;
   margin-bottom: 11px;
   font-family: 'Bitum';
   font-weight: bold;
   text-transform: uppercase;
   font-size: 23px;
   line-height: 28px;
-}
-p {
+} */
+/* p {
   margin-top: 22px;
   font-family: 'Bitum';
   font-size: 22px;
   line-height: 33px;
   text-align: justify;
-}
-.firstcsreen {
+} */
+/* .firstcsreen {
   position: relative;
-}
-.letter {
+} */
+/* .letter {
   display: inline-block;
   text-align: center;
   font-size: 45px;
-}
-.blue {
+} */
+/* .blue {
   background-color: #0344A5;
   height: 187px;
   width: 87px;
   display: inline-block;
-}
-.house {
+} */
+/* .house {
   margin-left: 175px;
-}
-.pen {
+} */
+/* .pen {
   background-color: #0344A5;
   height: 581px;
   width:42px;
+} */
+
+/* .ship {
+  allign-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-height: 194px;
+  width: 525px;
+} */
+
+/* .overlap-group-6 {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  height: 45px;
+  margin-left: 19px;
+  min-width: 405px;
+  padding: 0 10px;
+} */
+
+/* .group-211 {
+  height: 25px;
+  width: 358px;
+} */
+
+/* .rectangle-317 {
+  height: 15px;
+  width: 525px;
+} */
+
+/* .overlap-group1 {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  gap: 15px;
+  height: 45px;
+  margin-left: 19px;
+  min-width: 365px;
+  padding: 0 10px;
+} */
+
+/* .rectangle {
+  background-color: #1C39FF;
+  border: 1px none;
+  height: 25px;
+  width: 25px;
+} */
+
+/* .rectangle-316 {
+  height: 30px;
+  margin-left: 96px;
+  width: 110px;
+} */
+
+/* .rectangle-3 {
+  height: 39px;
+  width: 525px;
+} */
+hidden,
+hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.desktop-16 {
+  align-items: flex-start;
+  background-color: 1C39FF;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  height: 10336px;
+  overflow: hidden;
+  padding: 38px 0;
+  width: 1440px;
+}
+.flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 10068px;
+  width: 1644px;
+}
+.languages-5 {
+  align-items: center;
+  display: flex;
+  margin-top: 92px;
+  min-width: 1442px;
+}
+.overlap-group28 {
+  align-items: flex-start;
+  background-color: #1C39FF;
+  border: 10px solid;
+  border-color: #fff;
+  display: flex;
+  height: 103px;
+  min-width: 428px;
+  padding: 0 41px;
+}
+
+.text-61 {
+  color: #fff;
+  font-weight: 400;
+  line-height: normal;
+  min-height: 83px;
+  min-width: 327px;
+  text-align: center;
+}
+
+.line-2-7 {
+  height: 10px;
+  margin-bottom: 1px;
+  width: 506px;
+}
+
+.overlap-group-container {
+  align-self: flex-end;
+  height: 425px;
+  margin-top: 157px;
+  position: relative;
+  width: 1479px;
+}
+
+.overlap-group8{
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  gap: 15px;
+  height: 70px;
+  left: 1032px;
+  min-width: 445px;
+  padding: 0 20px;
+  position: absolute;
+  top: 119px;
+}
+.croisire-seine-depuis-paris {
+  color: #1C39FF;
+  font-weight: 400;
+  line-height: normal;
+  min-height: 26px;
+  min-width: 287px;
+}
+
+.ellipse-5 {
+  background-color: #1C39FF;
+  border: 0.62px none;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+}
+
+.overlap-group-container-1 {
+  height: 425px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1335px;
+}
+
+.overlap-group7 { align-items: center;
+background-color: #fff ;
+display: flex;
+gap: 15px;
+height: 70px;
+left: 700px;
+min-width: 635px;
+padding: 0 20px;
+position: absolute;
+top: 226px;
+}
+
+.flusskreuzfahrt-spr {
+  color: #1C39FF;
+  font-weight: 400;
+  line-height: normal;
+  min-height: 26px;
+  min-width: 519px;
+}
+
+.overlap-group5 {
+  align-items: center;
+  background-color: var(-- white) ;
+  display: flex; gap: 15px;
+  height: 70px; left: 859px;
+  min-width: 445px;
+  padding: 0 20px; position: absolute;
+  top: 23px;
+}
+
+.text-20 {
+  color: #1C39FF;
+  font-weight: 400;
+  line-height: normal;
+  min-height: 26px;
+  min-width: 274px;
+}
+
+.overlap-group-container-2 {
+height: 425px;
+left: 0;
+position: absolute;
+top: 0;
+width: 1019px;
+}
+
+.overlap-group4 {
+align-items: center;
+background-color: var(--white);
+display: flex;
+gap: 15px;
+height: 70px;
+left: 383px;
+min-width: 445px;
+padding: 0 20px;
+position: absolute;
+top: 23px;
+}
+
+.thames-sightseeing-tour {
+  color: var(--blue);
+  font-weight: 400;
+  line-height: normal;
+  min-height: 26px;
+  min-width: 258px;
+  overlap-group10 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 15px;
+  height: 70px;
+  left: 348px;
+  min-width: 445px;
+  padding: 0 20px;
+  position: absolute;
+  top: 309px;
 }
