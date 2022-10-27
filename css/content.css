@@ -1,4 +1,4 @@
-.body {
+.body, html {
   /* align-items: flex-start; */
   background-color: #1C39FF;
   display: block;
@@ -117,108 +117,18 @@ h4 {
   width: 1442px;
 }
 
-
-
-.
-
-.overlap-group8{
-  align-items: center;
-  background-color: #fff;
-  display: flex;
-  gap: 15px;
-  height: 70px;
-  left: 1032px;
-  min-width: 445px;
-  padding: 0 20px;
-  position: absolute;
-  top: 119px;
-}
-.croisire-seine-depuis-paris {
-  color: #1C39FF;
-  font-weight: 400;
-  line-height: normal;
-  min-height: 26px;
-  min-width: 287px;
+.numbers{
+  background-color: #FED700;
 }
 
-.ellipse-5 {
+.accent {
+  background-color: #FED700;
+}
+
+.book {
   background-color: #1C39FF;
-  border: 0.62px none;
-  border-radius: 15px;
-  height: 30px;
-  width: 30px;
-}
-
-.overlap-group-container-1 {
-  height: 425px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1335px;
-}
-
-.flusskreuzfahrt-spr {
-  color: #1C39FF;
-  font-weight: 400;
-  line-height: normal;
-  min-height: 26px;
-  min-width: 519px;
-}
-
-.overlap-group5 {
-  align-items: center;
-  background-color: var(-- white) ;
-  display: flex; gap: 15px;
-  height: 70px; left: 859px;
-  min-width: 445px;
-  padding: 0 20px; position: absolute;
-  top: 23px;
-}
-
-.text-20 {
-  color: #1C39FF;
-  font-weight: 400;
-  line-height: normal;
-  min-height: 26px;
-  min-width: 274px;
-}
-
-.overlap-group-container-2 {
-height: 425px;
-left: 0;
-position: absolute;
-top: 0;
-width: 1019px;
-}
-
-.overlap-group4 {
-align-items: center;
-background-color: var(--white);
-display: flex;
-gap: 15px;
-height: 70px;
-left: 383px;
-min-width: 445px;
-padding: 0 20px;
-position: absolute;
-top: 23px;
-}
-
-.thames-sightseeing-tour {
-  color: var(--blue);
-  font-weight: 400;
-  line-height: normal;
-  min-height: 26px;
-  min-width: 258px;
-  overlap-group10 {
-  align-items: center;
-  background-color: var(--white);
-  display: flex;
-  gap: 15px;
-  height: 70px;
-  left: 348px;
-  min-width: 445px;
-  padding: 0 20px;
-  position: absolute;
-  top: 309px;
+  width: 595px;
+  height: 842px;
+  position: relative;
+  margin-left: 680px;
 }
