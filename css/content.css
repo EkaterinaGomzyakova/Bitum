@@ -1,6 +1,6 @@
 .body {
-  align-items: flex-start;
-  background-color: 1C39FF;
+  /* align-items: flex-start; */
+  background-color: #1C39FF;
   display: block;
   padding: 38px 0;
   width: 1440px;
@@ -109,86 +109,17 @@ h4 {
   right: 30px;
   top: 30px;
 }
-.rectangle-317 {
-  height: 15px;
-  width: 525px;
-}
 
-.overlap-group1 {
-  align-items: center;
-  background-color: white;
-  display: flex;
-  gap: 15px;
-  height: 45px;
-  margin-left: 19px;
-  min-width: 365px;
-  padding: 0 10px;
-}
-
-
-
-.rectangle-316 {
-  height: 30px;
-  margin-left: 96px;
-  width: 110px;
-}
-
-.rectangle-3 {
-  height: 39px;
-  width: 525px;
-}
-
-
-
-
-
-
-.flex-col-3 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  min-height: 10068px;
-  width: 1644px;
-}
-.languages-5 {
-  align-items: center;
-  display: flex;
-  margin-top: 92px;
-  min-width: 1442px;
-}
-.overlap-group28 {
-  align-items: flex-start;
-  background-color: #1C39FF;
-  border: 10px solid;
-  border-color: #fff;
-  display: flex;
-  height: 103px;
-  min-width: 428px;
-  padding: 0 41px;
-}
-
-.text-61 {
-  color: #fff;
-  font-weight: 400;
-  line-height: normal;
-  min-height: 83px;
-  min-width: 327px;
-  text-align: center;
-}
-
-.line-2-7 {
-  height: 10px;
-  margin-bottom: 1px;
-  width: 506px;
-}
-
-.overlap-group-container {
-  align-self: flex-end;
-  height: 425px;
-  margin-top: 157px;
+.signboard {
+  height: 1165px;
+  margin-top: 101px;
   position: relative;
-  width: 1479px;
+  width: 1442px;
 }
+
+
+
+.
 
 .overlap-group8{
   align-items: center;
@@ -224,18 +155,6 @@ h4 {
   position: absolute;
   top: 0;
   width: 1335px;
-}
-
-.overlap-group7 { align-items: center;
-background-color: #fff ;
-display: flex;
-gap: 15px;
-height: 70px;
-left: 700px;
-min-width: 635px;
-padding: 0 20px;
-position: absolute;
-top: 226px;
 }
 
 .flusskreuzfahrt-spr {
