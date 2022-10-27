@@ -21,6 +21,11 @@
   margin-top: 1996px;
 }
 
+.screen5 {
+  position: relative;
+  margin-top: 3921px;
+}
+
 .h1 {
   font-family: 'Bitum';
   font-size: 389px;
@@ -665,7 +670,64 @@ color: #1C39FF;
   color: #FFFFFF;
 }
 
-.
+.light-italic-letter {
+  /* о */
+  position: absolute;
+  width: 70px;
+  height: 125px;
+  left: 780px;
+  top: 223px;
+
+  font-family: 'Bitum';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 125px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* White */
+  color: #FFFFFF;
+}
+.regular-italic-letter {
+  /* о */
+  position: absolute;
+  width: 72px;
+  height: 125px;
+  left: 969px;
+  top: 223px;
+  font-family: 'Bitum';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 125px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* White */
+
+  color: #FFFFFF;
+}
+
+.bold-italic-letter {
+  /* о */
+  position: absolute;
+  width: 72px;
+  height: 125px;
+  left: 1159px;
+  top: 223px;
+  font-family: 'Bitum';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 125px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* White */
+  color: #FFFFFF;
+}
+
 .numbers{
   background-color: #FED700;
 }
