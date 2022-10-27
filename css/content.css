@@ -6,15 +6,64 @@
   width: 1440px;
 }
 
-.screen {
+.screen1 {
   position: relative;
+  margin-top: 0;
+}
+
+.screen2 {
+  position: relative;
+  margin-top: 1125px;
+}
+
+.screen3 {
+  position: relative;
+  margin-top: 1996px;
 }
 
 .h1 {
   font-family: 'Bitum';
-  font-size: 76px;
+  font-size: 389px;
   line-height: 75px;
 }
+
+.naz {
+  /* bitum */
+  position: absolute;
+  width: 1180px;
+  height: 505px;
+  left: 128px;
+  top: 357px;
+
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 389px;
+  line-height: 505px;
+  /* identical to box height */
+
+
+  /* Blue */
+
+  color: #1C39FF;
+  z-index: 2;
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 352px;
+  color: #fff;
+}
+
+.wave-fill {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 386px;
+  background-color: #FFFFFF;
+ }
 
 .h2 {
   margin-top: 30px;
@@ -42,25 +91,29 @@
   font-family: 'Bitum';
   font-size: 20px;
   line-height: 33px;
-  text-align: justify;
 }
 .description {
   color: #FF5722;
 }
 
-.naz {
-  color: #1C39FF;
-  text-align: center;
-  position: absolute;
-  top: 375px;
+
+.text_container {
+  width: 635px;
+  height: 130px;
 }
 
-.frame {
-  width: 384px;
-  height: 103px;
-  background-color: #1C39FF;
-  border: 10px;
-  border-color: #1C39FF;
+.about {
+  position: absolute;
+  width: 635px;
+  height: 130px;
+  left: 165px;
+  top: 100px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
 }
 
 .ship-small {
@@ -101,27 +154,131 @@
   top: 218px;
 }
 
+.line-left {
+  position: absolute;
+  width: 530px;
+  height: 0px;
+  left: 0px;
+  top: 349px;
+  border: 10px solid #FFFFFF;
+}
+
+.line-right {
+  position: absolute;
+  width: 530px;
+  height: 0px;
+  left: 910px;
+  top: 349px;
+  /* White */
+  border: 10px solid #FFFFFF;
+}
+
+.frame {
+  box-sizing: border-box;
+  position: absolute;
+  width: 384px;
+  height: 103px;
+  left: 528px;
+  top: 293px;
+  border: 10px solid #FFFFFF;
+}
+
+
 .ticket {
-  position: relative;
-  top: 165px;
+  position: absolute;
+  width: 1110px;
+  height: 347px;
   left: 165px;
-  background-color: #fff;
+  top: 458px;
+  background: #fff;
 }
 .number {
+  /* 2018 */
   position: absolute;
+  width: 151px;
+  height: 91px;
   left: 30px;
   top: 30px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 91px;
+  color: #1C39FF;
 }
 .designers {
+  /* Дизайнеры Гаянэ Багдасарян и Вячеслав Кириленко */
   position: absolute;
-  left: 54px;
-  top: 475px;
+  width: 350px;
+  height: 52px;
+  left: 475px;
+  top: 54px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #1C39FF;
 }
 
 .year {
+  /* год */
+position: absolute;
+width: 37px;
+height: 26px;
+left: 30px;
+top: 121px;
+font-family: 'Bitum';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #1C39FF;
+}
+
+.description {
+  /* Новаторский гротеск со стилистическими альтеративами */
   position: absolute;
-  top: 30px;
+  width: 795px;
+  height: 104px;
   left: 30px;
+  top: 167px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #FF5722;
+}
+
+.nachert {
+  /* 6 начертаний */
+  position: absolute;
+  width: 142px;
+  height: 26px;
+  left: 938px;
+  top: 291px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #1C39FF;
+}
+
+.inspire {
+  /* вдохновлен швейцарской типографикой */
+  position: absolute;
+  width: 431px;
+  height: 26px;
+  left: 30px;
+  top: 291px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #1C39FF;
 }
 
 .qr {
@@ -130,11 +287,35 @@
   top: 30px;
 }
 
-.signboard {
-  height: 1165px;
-  margin-top: 101px;
+.addition {
   position: relative;
-  width: 1442px;
+}
+
+.plus1 {
+  /* Острый овал от гротеска берлинских уличных указателей */
+  position: absolute;
+  width: 349px;
+  height: 52px;
+  left: 165px;
+  top: 54px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.signboard {
+  /* Border */
+  box-sizing: border-box;
+  position: absolute;
+  width: 1110px;
+  height: 835px;
+  left: 165px;
+  top: 298px;
+  /* White */
+  border: 10px solid #FFFFFF;
 }
 
 .numbers{
