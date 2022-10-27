@@ -1,70 +1,72 @@
-/* .screen {
+.body {
+  align-items: flex-start;
+  background-color: 1C39FF;
+  display: block;
+  padding: 38px 0;
+  width: 1440px;
+}
+
+.screen {
   position: relative;
 }
-/* h1, h2, h3, h4 {
-  color: #0344A5; */
-/* } */
-/* h1 {
+
+.h1 {
   margin-top: 42px;
   font-family: 'Bitum';
   font-size: 76px;
   line-height: 75px;
   color: #0344A5;
-} */
-/* h2 {
+}
+
+.h2 {
   margin-top: 30px;
   font-family: 'Bitum';
   font-size: 48px;
   line-height: 48px;
-} */
-/* h3 {margin-top: 15px;
-  margin-bottom: 11px;
+  color: #1C39FF;
+}
+
+.h3 {
   font-family: 'Bitum';
   font-weight: bold;
-  text-transform: uppercase;
-  font-size: 23px;
-  line-height: 28px;
-} */
-/* p {
-  margin-top: 22px;
+  font-size: 70px;
+  line-height: 91px;
+}
+
+h4 {
   font-family: 'Bitum';
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.p {
+  font-family: 'Bitum';
+  font-size: 20px;
   line-height: 33px;
   text-align: justify;
-} */
-/* .firstcsreen {
-  position: relative;
-} */
-/* .letter {
-  display: inline-block;
-  text-align: center;
-  font-size: 45px;
-} */
-/* .blue {
-  background-color: #0344A5;
-  height: 187px;
-  width: 87px;
-  display: inline-block;
-} */
-/* .house {
-  margin-left: 175px;
-} */
-/* .pen {
-  background-color: #0344A5;
-  height: 581px;
-  width:42px;
-} */
+}
+.description {
+  color: #FF5722;
+}
 
-/* .ship {
+.ship-small {
   allign-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 5px;
   min-height: 194px;
   width: 525px;
-} */
+}
 
-/* .overlap-group-6 {
+.window-small {
+  background-color: #1C39FF;
+  height: 25px;
+  width: 25px;
+}
+
+/* нижний ярус маленького корабля */
+.second-tier {
   align-items: center;
   background-color: white;
   display: flex;
@@ -72,19 +74,47 @@
   margin-left: 19px;
   min-width: 405px;
   padding: 0 10px;
-} */
-
+}
+/* окошки нижний ярус мал корабль */
 /* .group-211 {
   height: 25px;
   width: 358px;
 } */
 
-/* .rectangle-317 {
+.ticket {
+  position: relative;
+  top: 165px;
+  left: 165px;
+  background-color: #fff;
+}
+.number {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.designers {
+  position: absolute;
+  left: 54px;
+  top: 475px;
+}
+
+.year {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.qr {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.rectangle-317 {
   height: 15px;
   width: 525px;
-} */
+}
 
-/* .overlap-group1 {
+.overlap-group1 {
   align-items: center;
   background-color: white;
   display: flex;
@@ -93,43 +123,26 @@
   margin-left: 19px;
   min-width: 365px;
   padding: 0 10px;
-} */
+}
 
-/* .rectangle {
-  background-color: #1C39FF;
-  border: 1px none;
-  height: 25px;
-  width: 25px;
-} */
 
-/* .rectangle-316 {
+
+.rectangle-316 {
   height: 30px;
   margin-left: 96px;
   width: 110px;
-} */
+}
 
-/* .rectangle-3 {
+.rectangle-3 {
   height: 39px;
   width: 525px;
-} */
-hidden,
-hidden * {
-  pointer-events: none;
-  visibility: hidden;
 }
 
-.desktop-16 {
-  align-items: flex-start;
-  background-color: 1C39FF;
-  border: 1px none;
-  display: flex;
-  flex-direction: column;
-  gap: 13px;
-  height: 10336px;
-  overflow: hidden;
-  padding: 38px 0;
-  width: 1440px;
-}
+
+
+
+
+
 .flex-col-3 {
   align-items: flex-start;
   display: flex;
