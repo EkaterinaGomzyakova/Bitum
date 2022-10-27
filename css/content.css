@@ -291,6 +291,24 @@ color: #1C39FF;
   position: relative;
 }
 
+.history {
+  /* История */
+position: absolute;
+width: 283px;
+height: 83px;
+left: 50px;
+top: 10px;
+/* h2 */
+font-family: 'Bitum';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 83px;
+/* identical to box height */
+/* White */
+color: #FFFFFF;
+}
+
 .plus1 {
   /* Острый овал от гротеска берлинских уличных указателей */
   position: absolute;
@@ -309,7 +327,7 @@ color: #1C39FF;
 .signboard {
   /* Border */
   box-sizing: border-box;
-  position: absolute;
+  position: relative;
   width: 1110px;
   height: 835px;
   left: 165px;
@@ -318,6 +336,336 @@ color: #1C39FF;
   border: 10px solid #FFFFFF;
 }
 
+.ellipse-small1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  left: 30px;
+  top: 30px;
+  background-color: #fff;
+}
+.ellipse-small2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  left: 1050px;
+  top: 30px;
+  background-color: #fff;
+}
+.ellipse-small3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  left: 1050px;
+  top: 775px;
+  background-color: #fff;
+}
+.ellipse-small4 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  left: 30px;
+  top: 775px;
+  background-color: #fff;
+}
+
+
+.oval {
+  width: 505px;
+	height: 385px;
+	background-color: #fff;
+	border-radius: 260px;
+  position: absolute;
+  left: 95px;
+  top: 45px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 335px;
+  height: 413px;
+  left: 685px;
+  top: 58px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-bottom: 350px solid #fff;
+	border-right: 350px solid transparent;
+  position: absolute;
+  left: 297px;
+  top: 403px;
+}
+
+.op1 {
+  /* витиеватая «а» */
+  position: absolute;
+  width: 157px;
+  height: 26px;
+  left: 154px;
+  top: 224px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #1C39FF;
+}
+
+.op2 {
+  position: absolute;
+  width: 262px;
+  height: 78px;
+  left: 40px;
+  top: 119px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #1C39FF;
+}
+
+.op3 {
+  /* геометричная «s» */
+  position: absolute;
+  width: 185px;
+  height: 26px;
+  left: 25px;
+  top: 224px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #1C39FF;
+}
+
+.rega {
+  /* a */
+  position: absolute;
+  width: 240px;
+  height: 505px;
+  left: 14px;
+  top: -186px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 389px;
+  line-height: 505px;
+  color: #1C39FF;
+}
+
+.itala {
+  /* a */
+  position: absolute;
+  width: 240px;
+  height: 505px;
+  left: 266px;
+  top: 2px;
+  font-family: 'Bitum';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 389px;
+  line-height: 505px;
+  color: #1C39FF;
+}
+
+.regm {
+  position: absolute;
+  width: 321px;
+  height: 505px;
+  left: 5px;
+  top: 120px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 389px;
+  line-height: 505px;
+  color: #1C39FF;
+}
+.italm {
+  /* M */
+  position: absolute;
+  width: 321px;
+  height: 505px;
+  left: 15px;
+  top: -308px;
+  font-family: 'Bitum';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 389px;
+  line-height: 505px;
+  color: #1C39FF;
+}
+
+.regs {
+  /* s */
+  position: absolute;
+  width: 229px;
+  height: 505px;
+  left: 5px;
+  top: -150px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 389px;
+  line-height: 505px;
+  color: #1C39FF;
+}
+
+.itals {
+position: absolute;
+width: 229px;
+height: 505px;
+left: 50px;
+top: 10px;
+font-family: 'Bitum';
+font-style: italic;
+font-weight: 400;
+font-size: 389px;
+line-height: 505px;
+/* identical to box height */
+/* Blue */
+color: #1C39FF;
+}
+
+.frame2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 884px;
+  height: 103px;
+  left: 278px;
+  top: 0;
+  border: 10px solid #FFFFFF;
+}
+.fontimage {
+  /* Образ шрифта создают */
+  position: absolute;
+  width: 784px;
+  height: 83px;
+  left: 50px;
+  top: 10px;
+  /* h2 */
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 83px;
+  /* identical to box height */
+  text-align: center;
+  /* White */
+  color: #FFFFFF;
+}
+
+.bridge {
+  position: absolute;
+  width: 1440px;
+  height: 380px;
+  left: 0px;
+  top: 54px;
+}
+
+.screen4 {
+  position: relative;
+  margin-top: 3298px;
+}
+
+.frame3 {
+  /* Rectangle 318 */
+  box-sizing: border-box;
+  position: absolute;
+  width: 502px;
+  height: 103px;
+  left: 469px;
+  top: 0;
+  /* Blue */
+  background: #1C39FF;
+  /* White */
+  border: 10px solid #FFFFFF;
+}
+
+.typefaces {
+  /* Начертания */
+  position: absolute;
+  width: 402px;
+  height: 83px;
+  left: 50px;
+  top: 10px;
+  /* h2 */
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 83px;
+  /* identical to box height */
+  text-align: center;
+  /* White */
+  color: #FFFFFF;
+}
+
+.light-letter {
+  /* о */
+  position: absolute;
+  width: 70px;
+  height: 125px;
+  left: 211px;
+  top: 223px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 125px;
+  /* identical to box height */
+  text-transform: uppercase;
+  /* White */
+  color: #FFFFFF;
+}
+.regular-letter {
+  /* о */
+  position: absolute;
+  width: 72px;
+  height: 125px;
+  left: 400px;
+  top: 223px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 125px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* White */
+  color: #FFFFFF;
+}
+
+.bold-letter {
+  /* о */
+  position: absolute;
+  width: 72px;
+  height: 125px;
+  left: 590px;
+  top: 223px;
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 125px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* White */
+  color: #FFFFFF;
+}
+
+.
 .numbers{
   background-color: #FED700;
 }
