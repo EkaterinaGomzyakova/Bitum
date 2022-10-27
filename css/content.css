@@ -59,6 +59,22 @@ h4 {
   width: 525px;
 }
 
+.first-tier-small {
+  width: 365px;
+  height: 45px;
+  position: absolute;
+  left: 184px;
+  top: 168px;
+}
+
+.second-tier-small {
+  width: 365px;
+  height: 45px;
+  position: absolute;
+  left: 184px;
+  top: 218px;  
+}
+
 .window-small {
   background-color: #1C39FF;
   height: 25px;
