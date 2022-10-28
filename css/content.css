@@ -1,57 +1,39 @@
 .body, html {
-  /* align-items: flex-start; */
   background-color: #1C39FF;
   display: block;
-  padding: 38px 0;
+  margin: 0;
   width: 1440px;
 }
-
 .screen1 {
+  display: flex;
   position: relative;
   margin-top: 0;
+  align-items: center;
+  width: 1440px;
+  height: 1125px;
 }
 
-.screen2 {
-  position: relative;
-  margin-top: 1125px;
-}
-
-.screen3 {
-  position: relative;
-  margin-top: 1996px;
-}
-
-.screen5 {
-  position: relative;
-  margin-top: 3921px;
-}
-
-.h1 {
-  font-family: 'Bitum';
-  font-size: 389px;
-  line-height: 75px;
-}
-
-.naz {
-  /* bitum */
+.ship_small {
   position: absolute;
-  width: 1180px;
-  height: 505px;
-  left: 128px;
-  top: 357px;
+  width: 525px;
+  height: 194px;
+  left: 165px;
+  top: 133px;
+}
+.cloud1 {
+  position: absolute;
+  width: 290px;
+  height: 87px;
+  left: 642px;
+  top: 40px;
+}
 
-  font-family: 'Bitum';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 389px;
-  line-height: 505px;
-  /* identical to box height */
-
-
-  /* Blue */
-
-  color: #1C39FF;
-  z-index: 2;
+.cloud2 {
+  position: absolute;
+  width: 335px;
+  height: 110px;
+  left: 940px;
+  top: 75px;
 }
 
 .wave {
@@ -59,40 +41,233 @@
   left: 0;
   right: 0;
   top: 352px;
-  color: #fff;
 }
 
-.wave-fill {
+.wave_fill {
   position: absolute;
   left: 0;
   right: 0;
   top: 386px;
-  background-color: #FFFFFF;
  }
 
-.h2 {
-  margin-top: 30px;
+ h1 {
   font-family: 'Bitum';
-  font-size: 48px;
-  line-height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 389px;
+  line-height: 505px;
+  text-align: center;
+ }
+
+ .name {
+  /* название */
+  position: absolute;
+  width: 1180px;
+  height: 505px;
+  left: 128px;
+  top: 357px;
+  color: #1C39FF;
+  z-index: 2;
+ }
+
+p {
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+ }
+
+.about {
+  position: absolute;
+  width: 635px;
+  height: 130px;
+  left: 165px;
+  top: 932px;
+  color: #fff;
+ }
+
+.screen2 {
+  position: relative;
+  width: 1440px;
+  height: 861px;
+  background-color: red;
+}
+
+.frame {
+  box-sizing: border-box;
+  position: absolute;
+  height: 103px;
+  border: 10px solid #fff;
+  background-color: #1C39FF;
+  top: 0;
+}
+#fram1 {
+  width: 384px;
+  left: 528px;
+}
+
+h2 {
+  font-family: 'Bitum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 83px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+}
+
+.screen3 {
+  position: relative;
+  width: 1440px;
+  height: 1312px;
+}
+
+#fram2 {
+  width: 884px;
+  left: 278px;
+}
+.screen4 {
+  position: relative;
+  width: 1440px;
+  height: 623px;
+}
+#fram3 {
+  width: 502px;
+  left: 469px;
+  z-index: 2;
+}
+.screen5 {
+  position: relative;
+  width: 1440px;
+  height: 884px;
+  background-color: green;
+}
+
+#fram4 {
+  width: 952px;
+  left: 244px;
+}
+
+.lang {
+  position: absolute;
+  height: 70px;
+  background: #fff;
   color: #1C39FF;
 }
 
-.h3 {
+#english {
+  width: 347px;
+  left: 548px;
+  top: 270px;
+}
+
+#german {
+  width: 635px;
+  left: 548px;
+  top: 360px;
+}
+
+#french {
+  width: 445px;
+  left: 546px;
+  top: 4371px;
+}
+
+#russian {
+  width: 366px;
+  left: 912px;
+  top: 4191px;
+}
+
+.screen6 {
+  position: relative;
+  width: 1440px;
+  height: 1279px;
+  background-color: red;
+}
+
+#fram5 {
+  width: 662px;
+  left: 389px;
+}
+
+.first-tier {
+  justify-content: space-between;
+}
+
+.window {
+  display: inline;
+  width: 55px;
+  height: 55px;
+  background-color: #1C39FF;
+}
+
+.screen7 {
+  position: relative;
+  width: 1440px;
+  height: 926px;
+}
+#fram6 {
+  width: 604px;
+  left: 418px;
+}
+.screen8 {
+  position: relative;
+  width: 1440px;
+  height: 1191px;
+}
+
+#fram7 {
+  width: 576px;
+  left: 432px;
+}
+.screen9 {
+  position: relative;
+  width: 1440px;
+  height: 810px;
+}
+
+#fram8 {
+  width: 1110px;
+  left: 165px;
+}
+
+.screen10 {
+  position: relative;
+  width: 1440px;
+  height: 1326px;
+}
+
+#fram9 {
+  width: 428px;
+  height: 103px;
+  left: 506px;
+}
+
+
+
+
+
+
+
+h3 {
   font-family: 'Bitum';
   font-weight: bold;
   font-size: 70px;
   line-height: 91px;
 }
 
-.h4 {
+h4 {
   font-family: 'Bitum';
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
 }
 
-.p {
+p {
   font-family: 'Bitum';
   font-size: 20px;
   line-height: 33px;
@@ -107,57 +282,6 @@
   height: 130px;
 }
 
-.about {
-  position: absolute;
-  width: 635px;
-  height: 130px;
-  left: 165px;
-  top: 100px;
-  font-family: 'Bitum';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
-  color: #fff;
-}
-
-.ship-small {
-  allign-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  min-height: 194px;
-  width: 525px;
-}
-
-.first-tier-small {
-  width: 365px;
-  height: 45px;
-  left: 184px;
-  top: 168px;
-  align-items: center;
-  background-color: white;
-  display: flex;
-  height: 45px;
-}
-
-.window-small {
-  background-color: #1C39FF;
-  height: 25px;
-  width: 25px;
-}
-
-/* нижний ярус маленького корабля */
-.second-tier-small {
-  align-items: center;
-  background-color: white;
-  display: flex;
-  height: 45px;
-  width: 365px;
-  height: 45px;
-  left: 184px;
-  top: 218px;
-}
 
 .line-left {
   position: absolute;
@@ -175,16 +299,6 @@
   left: 910px;
   top: 349px;
   /* White */
-  border: 10px solid #FFFFFF;
-}
-
-.frame {
-  box-sizing: border-box;
-  position: absolute;
-  width: 384px;
-  height: 103px;
-  left: 528px;
-  top: 293px;
   border: 10px solid #FFFFFF;
 }
 
@@ -296,23 +410,7 @@ color: #1C39FF;
   position: relative;
 }
 
-.history {
-  /* История */
-position: absolute;
-width: 283px;
-height: 83px;
-left: 50px;
-top: 10px;
-/* h2 */
-font-family: 'Bitum';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 83px;
-/* identical to box height */
-/* White */
-color: #FFFFFF;
-}
+
 
 .plus1 {
   /* Острый овал от гротеска берлинских уличных указателей */
@@ -341,43 +439,29 @@ color: #FFFFFF;
   border: 10px solid #FFFFFF;
 }
 
-.ellipse-small1 {
+.ellipse-small {
   position: absolute;
   width: 30px;
   height: 30px;
   border-radius: 15px;
+  background-color: #fff;
+}
+#els1 {
   left: 30px;
   top: 30px;
-  background-color: #fff;
 }
-.ellipse-small2 {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
+#els2 {
   left: 1050px;
   top: 30px;
-  background-color: #fff;
 }
-.ellipse-small3 {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
+#els3 {
   left: 1050px;
   top: 775px;
-  background-color: #fff;
 }
-.ellipse-small4 {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  left: 30px;
+#els4 {
+  left: 1050px;
   top: 775px;
-  background-color: #fff;
 }
-
 
 .oval {
   width: 505px;
@@ -541,15 +625,6 @@ line-height: 505px;
 color: #1C39FF;
 }
 
-.frame2 {
-  box-sizing: border-box;
-  position: absolute;
-  width: 884px;
-  height: 103px;
-  left: 278px;
-  top: 0;
-  border: 10px solid #FFFFFF;
-}
 .fontimage {
   /* Образ шрифта создают */
   position: absolute;
@@ -577,24 +652,6 @@ color: #1C39FF;
   top: 54px;
 }
 
-.screen4 {
-  position: relative;
-  margin-top: 3298px;
-}
-
-.frame3 {
-  /* Rectangle 318 */
-  box-sizing: border-box;
-  position: absolute;
-  width: 502px;
-  height: 103px;
-  left: 469px;
-  top: 0;
-  /* Blue */
-  background: #1C39FF;
-  /* White */
-  border: 10px solid #FFFFFF;
-}
 
 .typefaces {
   /* Начертания */
@@ -728,14 +785,20 @@ color: #1C39FF;
   color: #FFFFFF;
 }
 
-.numbers{
+.screen7 {
   background-color: #FED700;
 }
 
-.accent {
+.screen8 {
   background-color: #FED700;
 }
-
+.styalt {
+  position: absolute;
+  left: 408px;
+  top: 271px;
+  font-feature-settings: 'case' on, 'salt' on;
+  color: #FFFFFF;
+}
 .book {
   background-color: #1C39FF;
   width: 595px;
