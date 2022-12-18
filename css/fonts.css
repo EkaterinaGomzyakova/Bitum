@@ -1,54 +1,53 @@
 @font-face {
-    font-family: "BitumLight";
-    src: url("css/fonts/BitumLight/BitumLight.eot");
-    src: url("css/fonts/BitumLight/BitumLight.eot?#iefix")format("embedded-opentype"),
-    url("css/fonts/BitumLight/BitumLight.woff") format("woff"),
-    url("css/fonts/BitumLight/BitumLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 300;
+  font-family: 'Bitum';
+  src: url('../fonts/Bitum.ttf');
+  src: local('Bitum'), local('Bitum-Trial'),
+  url('../fonts/Bitum.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
+
 @font-face {
-    font-family: "BitumRegular";
-    src: url("css/fonts/BitumRegular/BitumRegular.eot");
-    src: url("css/fonts/BitumRegular/BitumRegular.eot?#iefix")format("embedded-opentype"),
-    url("css/fonts/BitumRegular/BitumRegular.woff") format("woff"),
-    url("css/fonts/BitumRegular/BitumRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 500;
+  font-family: 'Bitum';
+  src: url('../fonts/Bitum-Italic.ttf');
+  src: local('Bitum'), local('Bitum-Trial'),
+  url('../fonts/Bitum-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
 }
+
 @font-face {
-    font-family: "BitumBold";
-    src: url("css/fonts/BitumBold/BitumBold.eot");
-    src: url("css/fonts/BitumBold/BitumBold.eot?#iefix")format("embedded-opentype"),
-    url("css/fonts/BitumBold/BitumBold.woff") format("woff"),
-    url("css/fonts/BitumBold/BitumBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 700;
+  font-family: 'Bitum';
+  src: url('../fonts/Bitum-Bold.ttf');
+  src: local('Bitum'), local('Bitum-Trial'),
+  url('../fonts/Bitum-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
 }
+
 @font-face {
-    font-family: "BitumLightItalic";
-    src: url("../fonts/BitumLightItalic/BitumLightItalic.eot");
-    src: url("../fonts/BitumLightItalic/BitumLightItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/BitumLightItalic/BitumLightItalic.woff") format("woff"),
-    url("../fonts/BitumLightItalic/BitumLightItalic.ttf") format("truetype");
-    font-style: italic;
-    font-weight: normal;
+  font-family: 'Bitum';
+  src: url('../fonts/Bitum-BoldItalic.ttf');
+  src: local('Bitum'), local('Bitum-Trial'),
+  url('../fonts/Bitum-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
 }
+
 @font-face {
-    font-family: "BitumItalic";
-    src: url("../fonts/BitumItalic/BitumItalic.eot");
-    src: url("../fonts/BitumItalic/BitumItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/BitumItalic/BitumItalic.woff") format("woff"),
-    url("../fonts/BitumItalic/BitumItalic.ttf") format("truetype");
-    font-style: italic;
-    font-weight: normal;
+  font-family: 'Bitum';
+  src: url('../fonts/Bitum-Light.ttf');
+  src: local('Bitum'), local('Bitum-Trial'),
+  url('../fonts/Bitum-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
 }
+
 @font-face {
-    font-family: "BitumBoldItalic";
-    src: url("../fonts/BitumBoldItalic/BitumBoldItalic.eot");
-    src: url("../fonts/BitumBoldItalic/BitumBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/BitumBoldItalic/BitumBoldItalic.woff") format("woff"),
-    url("../fonts/BitumBoldItalic/BitumBoldItalic.ttf") format("truetype");
-    font-style: italic;
-    font-weight: 700;
+  font-family: 'Bitum';
+  src: url('../fonts/Bitum-LightItalic.ttf');
+  src: local('Bitum'), local('Bitum-Trial'),
+  url('../fonts/Bitum-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
 }
